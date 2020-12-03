@@ -28,6 +28,7 @@ Example implements this push-Events:
 #### Concepts
 
 - Small
+- Responsive
 - Using Hooks and Context API
 - Using Tailwind and Fontawesome
   (All can be adjusted by endpoint user)
@@ -54,7 +55,7 @@ Example implements this push-Events:
 Toast Provider
 
 - Usually placed in Providers.tsx or on top of App.tsx
-- Grive you access to toast
+- Give you access to toast
 - In this example tast are fired from "HomeComponent"
 
 ```js
@@ -67,7 +68,13 @@ Toast Provider
 
 Use any action to fire tost
 
-- Using button to fire Toast
+Use hook to access toast actions
+
+```js
+const toast = useToast();
+```
+
+Example:
 
 ```js
 export default function HomePage() {
