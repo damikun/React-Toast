@@ -55,7 +55,7 @@ Toast Provider
 
 - Usually placed in Providers.tsx or on top of App.tsx
 - Give you access to toast
-- In this example toast are send from "HomeComponent"
+- In this example toast are send from "HomePage"
 
 ```js
 <ToastProvider>
