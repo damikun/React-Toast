@@ -6,17 +6,15 @@
   </a>
 
   <h3 align="center">React Toast Component</h3>
-   <h2 align="center">
-    <a href="https://damikun.github.io/React-Toast/">Link</a>
-  </h3>
+   <h1 align="center">
+    <a href="https://damikun.github.io/React-Toast/">Online Demo</a>
+  </h1>
   <p align="center">
    Custom implementation of react Toast component using TailwindCSS
   </p>  
 </p>
 
 ### Description
-
-##[Online Demo](https://www.google.com)
 
 This is toast component implemented by react hooks + React Context API and stayled using tailwindCSS framework. Be free to inspirate by implementation :) This is trim of my UI lib that i use for my projects.
 
