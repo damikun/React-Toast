@@ -9,14 +9,11 @@
    <h3 align="center">
     <a href="https://damikun.github.io/React-Toast/">Online Demo</a>
   </h3>
-  <p align="center">
-   Custom implementation of react Toast component using TailwindCSS
-  </p>  
 </p>
 
 ### Description
 
-This is toast component implemented by react hooks + React Context API and stayled using tailwindCSS framework. Be free to inspirate by implementation :) This is trim of my UI lib that i use for my projects.
+This is custom toast component implemented by react hooks + React Context API and stayled using tailwindCSS framework. Be free to inspirate by implementation :) This is trim of my UI lib that i use for my projects.
 
 This componnent helps allow to push notifixtaion to user screen and auto remove it after set or default time..
 
