@@ -9,7 +9,7 @@
    <h2 align="center">
   [GitHub](https://damikun.github.io/React-Toast) 
   </h3>
-
+[link text itself]: http://www.reddit.com
   <p align="center">
    Custom implementation of react Toast component using TailwindCSS
   </p>  
