@@ -15,7 +15,7 @@
 
 This is custom toast component implemented by react hooks + React Context API and stayled using tailwindCSS framework. Feel free to inspirate by implementation :) This is trim of my UI lib that i use for my projects.
 
-This componnent helps allow to push notifications to user screen and auto remove it after set or default time..
+This componnent allow to push notifications to user screen and auto remove it after set or default time..
 
 Example implements this push-Events:
 
