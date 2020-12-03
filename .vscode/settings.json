@@ -1,0 +1,28 @@
+{
+  "markdown-todo.sortByCount": false,
+
+  // "eslint.validate": [
+  //   "javascript",
+  //   "javascriptreact",
+  //   { "language": "typescript", "autoFix": true },
+  //   { "language": "typescriptreact", "autoFix": true }
+  // ],
+
+  "eslint.workingDirectories": [ "./" ],
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false
+  "omnisharp.enableEditorConfigSupport": true,
+
+  "editor.formatOnSave": true,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.semanticHighlighting.enabled": true,
+  "csharp.semanticHighlighting.enabled": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+}
