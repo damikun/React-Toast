@@ -18,8 +18,8 @@
     "axios": "^0.21.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm run build:css && react-scripts start",
+    "build": "npm run build:css && react-scripts build",
     "build:css": "postcss src/CSS/Tailwind.css -o src/CSS/App.css "
   },
   "eslintConfig": {

@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/damikun/React-File-DragDrop">
-  <img src="images/toast.PNG" alt="Example ract toast" >
+  <img src="images/toast.gif" alt="Example ract toast" >
   </a>
 
   <h3 align="center">React Toast Component</h3>
