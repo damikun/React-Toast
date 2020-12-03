@@ -7,7 +7,7 @@
 
   <h3 align="center">React Toast Component</h3>
    <h2 align="center">
-  [GitHub](https://damikun.github.io/React-Toast) 
+[Online Demo](https://www.google.com)
   </h3>
   <p align="center">
    Custom implementation of react Toast component using TailwindCSS
@@ -16,7 +16,7 @@
 
 ### Description
 
-[I'm an inline-style link](https://www.google.com)
+##[Online Demo](https://www.google.com)
 
 This is toast component implemented by react hooks + React Context API and stayled using tailwindCSS framework. Be free to inspirate by implementation :) This is trim of my UI lib that i use for my projects.
 
