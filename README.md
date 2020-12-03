@@ -65,8 +65,6 @@ Toast Provider
 </ToastProvider>
 ```
 
-Use any action to fire tost
-
 Use hook to access toast actions
 
 ```js
