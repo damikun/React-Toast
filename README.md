@@ -13,9 +13,9 @@
 
 ### Description
 
-This is custom toast component implemented by react hooks + React Context API and stayled using tailwindCSS framework. Be free to inspirate by implementation :) This is trim of my UI lib that i use for my projects.
+This is custom toast component implemented by react hooks + React Context API and stayled using tailwindCSS framework. Feel free to inspirate by implementation :) This is trim of my UI lib that i use for my projects.
 
-This componnent helps allow to push notifixtaion to user screen and auto remove it after set or default time..
+This componnent helps allow to push notifications to user screen and auto remove it after set or default time..
 
 Example implements this push-Events:
 
@@ -55,7 +55,7 @@ Toast Provider
 
 - Usually placed in Providers.tsx or on top of App.tsx
 - Give you access to toast
-- In this example tast are fired from "HomeComponent"
+- In this example toast are send from "HomeComponent"
 
 ```js
 <ToastProvider>
