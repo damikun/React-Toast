@@ -5,7 +5,7 @@
   <img src="images/toast.gif" alt="Example ract toast" >
   </a>
 
-  <h2 align="center">React Toast Component</h2>
+  <h3 align="center">React Toast Component</h3>
    <h3 align="center">
     <a href="https://damikun.github.io/React-Toast/">Online Demo</a>
   </h3>
