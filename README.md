@@ -5,10 +5,10 @@
   <img src="images/toast.gif" alt="Example ract toast" >
   </a>
 
-  <h3 align="center">React Toast Component</h3>
-   <h1 align="center">
+  <h1 align="center">React Toast Component</h1>
+   <h2 align="center">
     <a href="https://damikun.github.io/React-Toast/">Online Demo</a>
-  </h1>
+  </h2>
   <p align="center">
    Custom implementation of react Toast component using TailwindCSS
   </p>  
