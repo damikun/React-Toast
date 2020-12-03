@@ -15,6 +15,8 @@
   </p>  
 </p>
 
+[link text itself]: http://www.reddit.com
+
 ### Description
 
 This is toast component implemented by react hooks + React Context API and stayled using tailwindCSS framework. Be free to inspirate by implementation :) This is trim of my UI lib that i use for my projects.
