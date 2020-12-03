@@ -6,8 +6,9 @@
   </a>
 
   <h3 align="center">React Toast Component</h3>
-   <h2 align="center">[Online Demo](https://damikun.github.io/React-Toast/)</h3>
-  
+   <h2 align="center">
+  [GitHub](https://damikun.github.io/React-Toast) 
+  </h3>
 
   <p align="center">
    Custom implementation of react Toast component using TailwindCSS
