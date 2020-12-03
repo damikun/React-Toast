@@ -9,15 +9,14 @@
    <h2 align="center">
   [GitHub](https://damikun.github.io/React-Toast) 
   </h3>
-[link text itself]: http://www.reddit.com
   <p align="center">
    Custom implementation of react Toast component using TailwindCSS
   </p>  
 </p>
 
-[link text itself]: http://www.reddit.com
-
 ### Description
+
+[I'm an inline-style link](https://www.google.com)
 
 This is toast component implemented by react hooks + React Context API and stayled using tailwindCSS framework. Be free to inspirate by implementation :) This is trim of my UI lib that i use for my projects.
 
