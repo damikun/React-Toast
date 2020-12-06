@@ -23,10 +23,9 @@ export default function Avatar({ src, lable, icon }: AvatarProps) {
     <div
       className={clsx(
         "flex shadow-md select-none flex-no-wrap text-lg",
-        "uppercase text-gray-800 font-semibold border",
-        "border-gray-400 mx-auto my-auto bg-gray-100",
-        "items-center justify-center w-10 h-10 rounded-full",
-        "border-2"
+        "uppercase text-gray-800 font-semibold ",
+        " mx-auto my-auto bg-gray-100",
+        "items-center justify-center w-10 h-10 rounded-full"
       )}
     >
       <div
