@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Toast/static/css/main.31c2f0c5.chunk.css",
-    "main.js": "/React-Toast/static/js/main.ecc1bd1d.chunk.js",
-    "main.js.map": "/React-Toast/static/js/main.ecc1bd1d.chunk.js.map",
+    "main.js": "/React-Toast/static/js/main.98a5e636.chunk.js",
+    "main.js.map": "/React-Toast/static/js/main.98a5e636.chunk.js.map",
     "runtime-main.js": "/React-Toast/static/js/runtime-main.c6aea96f.js",
     "runtime-main.js.map": "/React-Toast/static/js/runtime-main.c6aea96f.js.map",
     "static/js/2.83e74906.chunk.js": "/React-Toast/static/js/2.83e74906.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.c6aea96f.js",
     "static/js/2.83e74906.chunk.js",
     "static/css/main.31c2f0c5.chunk.css",
-    "static/js/main.ecc1bd1d.chunk.js"
+    "static/js/main.98a5e636.chunk.js"
   ]
 }
