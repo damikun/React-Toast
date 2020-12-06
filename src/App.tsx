@@ -1,3 +1,4 @@
+/* Author: Dalibor Kundrat  https://github.com/damikun */
 //@ts-nocheck
 import React from "react";
 import "./App.css";

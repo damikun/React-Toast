@@ -1,3 +1,5 @@
+/* Author: Dalibor Kundrat  https://github.com/damikun */
+
 import clsx from "clsx";
 import React from "react";
 import Avatar from "../Avatar/Avatar";
@@ -18,7 +20,10 @@ export default function ToastCustomMessage() {
               "select-none my-auto"
             )}
           >
-            <Avatar src={"https://avatars2.githubusercontent.com/u/54806834?s=60&v=4"} lable={"DK"} />
+            <Avatar
+              src={"https://avatars2.githubusercontent.com/u/54806834?s=60&v=4"}
+              lable={"DK"}
+            />
           </div>
 
           <div

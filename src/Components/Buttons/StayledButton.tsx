@@ -1,3 +1,5 @@
+/* Author: Dalibor Kundrat  https://github.com/damikun */
+
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
@@ -33,6 +35,10 @@ const VARIANTS = {
 
   primaryblue: {
     base: "text-white hover:bg-blue-600 bg-blue-500",
+  },
+
+  secondaryblue: {
+    base: "text-blue-500 hover:bg-gray-200 bg-gray-100",
   },
 
   invisible: {

@@ -1,3 +1,5 @@
+/* Author: Dalibor Kundrat  https://github.com/damikun */
+
 import clsx from "clsx";
 import React, { useContext } from "react";
 import ToastMessage from "./ToastMessage";
@@ -33,6 +35,7 @@ export default function ToastContainer() {
                 type={toast.type}
                 header={toast.header}
                 icon={toast.icon}
+                truncate={toast.truncate}
                 onRemove={handleRemove}
                 lifetime={toast.lifetime}
               />

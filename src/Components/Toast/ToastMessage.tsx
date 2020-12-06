@@ -1,3 +1,5 @@
+/* Author: Dalibor Kundrat  https://github.com/damikun */
+
 import React, { useEffect } from "react";
 import { Toast } from "./ToastProvider";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

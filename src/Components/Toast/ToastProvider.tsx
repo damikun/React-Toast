@@ -1,3 +1,5 @@
+/* Author: Dalibor Kundrat  https://github.com/damikun */
+
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import React, { useCallback, useContext, useState } from "react";
 import ToastContainer from "./ToastContainer";
@@ -71,12 +73,11 @@ const DEFAULT_INTERVAL = 2500;
 export default function ToastProvider({ children }: ToastProviderProps) {
   const [data, setData] = useState<Array<Toast>>([]);
 
-  console.log(data);
   const Push = useCallback(
     (
       message: string,
       type: TostMessageType,
-      lifetime: number = DEFAULT_INTERVAL,
+      lifetime?: number,
       truncate?: Truncate
     ) => {
       if (message) {
@@ -84,7 +85,7 @@ export default function ToastProvider({ children }: ToastProviderProps) {
           id: uuidv4(),
           message: message,
           type: type,
-          lifetime: lifetime,
+          lifetime: lifetime ? lifetime : DEFAULT_INTERVAL,
           truncate: truncate,
         };
 
@@ -97,7 +98,7 @@ export default function ToastProvider({ children }: ToastProviderProps) {
   const PushCustom = useCallback(
     (
       message: string | React.ReactNode,
-      lifetime: number = DEFAULT_INTERVAL,
+      lifetime?: number,
       truncate?: Truncate,
       icon?: IconProp
     ) => {
@@ -105,7 +106,7 @@ export default function ToastProvider({ children }: ToastProviderProps) {
         const new_item: Toast = {
           id: uuidv4(),
           message: message,
-          lifetime: lifetime,
+          lifetime: lifetime ? lifetime : DEFAULT_INTERVAL,
           truncate: truncate,
           icon: icon,
           type: undefined,
@@ -152,7 +153,16 @@ export default function ToastProvider({ children }: ToastProviderProps) {
         setData((prevState) => prevState.filter((e) => e.id != id));
       },
     };
-  }, [data, PushError, PushWarning, PushSuccess, PushInfo, Push, PushCustom]);
+  }, [
+    data,
+    setData,
+    PushError,
+    PushWarning,
+    PushSuccess,
+    PushInfo,
+    Push,
+    PushCustom,
+  ]);
 
   return (
     <ToastContext.Provider value={ToastContexd()}>
