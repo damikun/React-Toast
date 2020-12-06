@@ -38,11 +38,6 @@ export default function HomePage() {
               <SelectOptions value="5000">5000 ms</SelectOptions>
             </Select>
 
-            {/* <select className="flex outline-none border-gray-400 border-1 rounded-lg focus:border-blue-500">
-              <option>2000</option>
-              <option>5000</option>
-              <option>8000</option>
-            </select> */}
           </div>
         </div>
         <div className="flex flex-col space-y-3">
