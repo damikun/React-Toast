@@ -6,15 +6,14 @@
   </a>
 
   <h3 align="center">React Toast Component</h3>
-
-  <p align="center">
-   Custom implementation of react Toast component using TailwindCSS
-  </p>  
+   <h3 align="center">
+    <a href="https://damikun.github.io/React-Toast/">Online Demo</a>
+  </h3>
 </p>
 
 ### Description
 
-This is toast component implemented by react hooks + React Context API and stayled using tailwindCSS framework. Feel free to inspirate by implementation :) This is trim of my UI lib that i use for my projects.
+This is custom toast component implemented by react hooks + React Context API and stayled using tailwindCSS framework. Feel free to inspirate by implementation :) This is trim of my UI lib that i use for my projects.
 
 This componnent allow to push notifications to user screen and auto remove it after set or default time..
 
@@ -57,7 +56,7 @@ Toast Provider
 
 - Usually placed in Providers.tsx or on top of App.tsx
 - Give you access to toast
-- In this example toast are fired from "HomeComponent"
+- In this example toast are send from "HomePage"
 
 ```js
 <ToastProvider>
