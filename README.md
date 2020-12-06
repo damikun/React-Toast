@@ -14,9 +14,9 @@
 
 ### Description
 
-This is toast component implemented by react hooks + React Context API and stayled using tailwindCSS framework. Be free to inspirate by implementation :) This is trim of my UI lib that i use for my projects.
+This is toast component implemented by react hooks + React Context API and stayled using tailwindCSS framework. Feel free to inspirate by implementation :) This is trim of my UI lib that i use for my projects.
 
-This componnent helps allow to push notifixtaion to user screen and auto remove it after set or default time..
+This componnent allow to push notifications to user screen and auto remove it after set or default time..
 
 Example implements this push-Events:
 
@@ -24,6 +24,7 @@ Example implements this push-Events:
 - Error
 - Warning
 - Success
+- Custom body
 
 #### Concepts
 
@@ -56,7 +57,7 @@ Toast Provider
 
 - Usually placed in Providers.tsx or on top of App.tsx
 - Give you access to toast
-- In this example tast are fired from "HomeComponent"
+- In this example toast are fired from "HomeComponent"
 
 ```js
 <ToastProvider>
@@ -66,12 +67,14 @@ Toast Provider
 </ToastProvider>
 ```
 
-Use any action to fire tost
-
 Use hook to access toast actions
 
 ```js
+// Custom hook to access default context
 const toast = useToast();
+// OR
+// Use of concrete conetxt
+const toast = useContext(ToastContext);
 ```
 
 Example:
@@ -93,7 +96,7 @@ export default function HomePage() {
 }
 ```
 
-Various options to push
+Various types to push
 
 ```js
 toast?.pushError("Error messgae", 5000);
@@ -101,8 +104,24 @@ toast?.pushWarning("Warning message"); // Default timeValue
 toast?.pushSuccess("Success message");
 toast?.pushInfo("Info Message");
 toast?.push("Message", "Info", 2000);
+toast?.pushCustom(<ToastCustomMessage />, 2000);"truncate-2-lines");
 ```
 
+Predefined types (can be extended)
+
 ```js
-type TostMessageType = "Info" | "Success" | "Warning" | "Error" | "Default";
+type TostMessageType = "Info" | "Success" | "Warning" | "Error";
+```
+
+Support message truncate trim
+
+```js
+type Truncate = "truncate-1-lines" | "truncate-2-lines" | "truncate-3-lines";
+```
+
+Pass any custom React.ReactNode component to body
+
+```js
+toast?.pushCustom(<ToastCustomMessage />, 2000);
+toast?.pushCustom(<div>My custom body</div>, 2000);
 ```

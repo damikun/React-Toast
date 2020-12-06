@@ -1,4 +1,5 @@
 {
+  "homepage":"https://damikun.github.io/React-Toast",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -18,9 +19,11 @@
     "axios": "^0.21.0"
   },
   "scripts": {
-    "start": "npm run build:css && react-scripts start",
-    "build": "npm run build:css && react-scripts build",
-    "build:css": "postcss src/CSS/Tailwind.css -o src/CSS/App.css "
+    "start": "yarn run build:css && react-scripts start",
+    "build": " react-scripts build",
+    "build:css": "postcss src/CSS/Tailwind.css -o src/CSS/App.css ",
+    "predeploy":"react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,13 +37,13 @@
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
     "@tailwindcss/typography": "^0.2.0",
-    "tailwindcss": "^2.0.1",
-    "tailwindcss-truncate-multiline": "^1.0.3",
     "clsx": "^1.1.1",
+    "gh-pages": "^3.1.0",
     "postcss": "^8.1.4",
-    "postcss-cli": "^8.2.0"
+    "postcss-cli": "^8.2.0",
+    "tailwindcss": "^2.0.1",
+    "tailwindcss-truncate-multiline": "^1.0.3"
   },
-
   "browserslist": {
     "production": [
       ">0.2%",
