@@ -2,9 +2,9 @@
 
 import clsx from "clsx";
 import React from "react";
-import Avatar from "../Avatar/Avatar";
+import Avatar from "./Avatar/Avatar";
 
-export default function ToastCustomMessage() {
+export default function ToastDummyMessage() {
   return (
     <div className="flex flex-col h-full">
       <div className="flex flex-row py-2 space-x-5 items-center mx-2">

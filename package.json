@@ -1,9 +1,20 @@
 {
-  "homepage":"https://damikun.github.io/React-Toast",
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
+  "homepage": "https://damikun.github.io/React-Toast",
+  "name": "react-toast-notify",
+  "version": "0.0.2",
+  "author": "Dalibor Kundrat",
+  "private": false,
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+    "peerDependencies": {
+    "react": "^17.0.1"
+  },
   "dependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/preset-react": "^7.12.7",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.3.0",
@@ -11,19 +22,21 @@
     "@types/node": "^12.19.8",
     "@types/react": "^16.14.2",
     "@types/react-dom": "^16.9.10",
+    "axios": "^0.21.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "react-toast-notify": "0.0.1",
     "typescript": "^4.1.2",
-    "web-vitals": "^0.2.4",
-    "axios": "^0.21.0"
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "yarn run build:css && react-scripts start",
     "build": " react-scripts build",
     "build:css": "postcss src/CSS/Tailwind.css -o src/CSS/App.css ",
-    "predeploy":"react-scripts build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "publish:npm": " mkdir dist &&  babel src/Components/Toast -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": [

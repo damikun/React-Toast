@@ -27,7 +27,6 @@ Example implements this push-Events:
 
 #### Concepts
 
-- Small
 - Responsive
 - Using Hooks and Context API
 - Using Tailwind and Fontawesome
@@ -37,7 +36,7 @@ Example implements this push-Events:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/damikun/React-File-DragDrop.git
+   git clone https://github.com/damikun/React-Toast.git
    ```
 2. Restore packages
    ```
@@ -58,8 +57,8 @@ Toast Provider
 - Give you access to toast
 - In this example toast are send from "HomePage"
 
-```js
-<ToastProvider>
+```tsx
+<ToastProvider variant={"top-right"}>
   <Layout>
     <HomePage />
   </Layout>
@@ -68,7 +67,7 @@ Toast Provider
 
 Use hook to access toast actions
 
-```js
+```tsx
 // Custom hook to access default context
 const toast = useToast();
 // OR
@@ -78,7 +77,7 @@ const toast = useContext(ToastContext);
 
 Example:
 
-```js
+```tsx
 export default function HomePage() {
   const toast = useToast();
 
@@ -97,30 +96,42 @@ export default function HomePage() {
 
 Various types to push
 
-```js
+```tsx
 toast?.pushError("Error messgae", 5000);
 toast?.pushWarning("Warning message"); // Default timeValue
 toast?.pushSuccess("Success message");
 toast?.pushInfo("Info Message");
 toast?.push("Message", "Info", 2000);
-toast?.pushCustom(<ToastCustomMessage />, 2000);"truncate-2-lines");
+toast?.pushCustom(<ToastCustomMessage />, 2000);
+toast?.pushError("Error messgae", 5000, "truncate-2-lines");
 ```
 
 Predefined types (can be extended)
 
-```js
+```tsx
 type TostMessageType = "Info" | "Success" | "Warning" | "Error";
 ```
 
 Support message truncate trim
 
-```js
+```tsx
 type Truncate = "truncate-1-lines" | "truncate-2-lines" | "truncate-3-lines";
 ```
 
 Pass any custom React.ReactNode component to body
 
-```js
+```tsx
 toast?.pushCustom(<ToastCustomMessage />, 2000);
 toast?.pushCustom(<div>My custom body</div>, 2000);
+```
+
+Various toast position
+
+```tsx
+
+<ToastProvider variant={"top-right"}>
+ // ...
+</ToastProvider>
+
+type Position "top_right" | "top_middle" | "top_left" | "bottom_right" | "bottom_middle" | "bottom_left"
 ```

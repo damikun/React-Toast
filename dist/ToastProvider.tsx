@@ -2,7 +2,7 @@
 
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import React, { useCallback, useContext, useState } from "react";
-import ToastContainer, { ToastContainerProps } from "./ToastContainer";
+import ToastContainer from "./ToastContainer";
 import { Truncate } from "./ToastMessage";
 
 /////////////////////////////////////
@@ -11,7 +11,7 @@ import { Truncate } from "./ToastMessage";
 
 export type ToastProviderProps = {
   children: React.ReactNode;
-} & ToastContainerProps;
+};
 
 type TostMessageType = "Info" | "Success" | "Warning" | "Error";
 
@@ -70,10 +70,7 @@ const DEFAULT_INTERVAL = 2500;
 /// Implementation
 /////////////////////////////////////
 
-export default function ToastProvider({
-  children,
-  variant,
-}: ToastProviderProps) {
+export default function ToastProvider({ children }: ToastProviderProps) {
   const [data, setData] = useState<Array<Toast>>([]);
 
   const Push = useCallback(
@@ -169,7 +166,7 @@ export default function ToastProvider({
 
   return (
     <ToastContext.Provider value={ToastContexd()}>
-      <ToastContainer variant={variant} />
+      <ToastContainer />
       {children}
     </ToastContext.Provider>
   );

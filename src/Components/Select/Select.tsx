@@ -7,8 +7,10 @@ import { useOutsideClick } from "../../Hooks/useOutsideClick";
 
 type SelectProps = {
   initinal: number | string;
+  value?: string;
   children: React.ReactNode;
   onChange?: (value: string | number) => void;
+  justify_end?: boolean;
 };
 
 export type SelectContext = {
@@ -19,7 +21,13 @@ export const SelectContext = React.createContext<SelectContext | undefined>(
   undefined
 );
 
-export default function Select({ children, onChange, initinal }: SelectProps) {
+export default function Select({
+  children,
+  onChange,
+  initinal,
+  justify_end = false,
+  value,
+}: SelectProps) {
   const [open, setIsOpen] = useState(false);
 
   const [selected, setSelected] = useState(initinal);
@@ -61,7 +69,9 @@ export default function Select({ children, onChange, initinal }: SelectProps) {
           "focus:border-blue-500 rounded-md cursor-pointer"
         )}
       >
-        <div className="flex px-1">{selected}</div>
+        <div className={clsx("flex px-1", justify_end && "justify-end")}>
+          {value ? value : selected}
+        </div>
         <div className=" h-full relative">
           {open == true && (
             <div
