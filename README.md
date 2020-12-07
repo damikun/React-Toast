@@ -37,7 +37,7 @@ Example implements this push-Events:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/damikun/React-File-DragDrop.git
+   git clone https://github.com/damikun/React-Toast.git
    ```
 2. Restore packages
    ```
