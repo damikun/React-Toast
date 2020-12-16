@@ -2,6 +2,7 @@
   "homepage": "https://damikun.github.io/React-Toast",
   "name": "react-toast-notify",
   "version": "0.0.2",
+  "license": "MIT",
   "author": "Dalibor Kundrat",
   "private": false,
   "babel": {
@@ -22,11 +23,9 @@
     "@types/node": "^12.19.8",
     "@types/react": "^16.14.2",
     "@types/react-dom": "^16.9.10",
-    "axios": "^0.21.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "react-toast-notify": "0.0.1",
     "typescript": "^4.1.2",
     "web-vitals": "^0.2.4"
   },
