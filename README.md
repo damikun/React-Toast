@@ -136,6 +136,16 @@ Various toast position
 type Position "top_right" | "top_middle" | "top_left" | "bottom_right" | "bottom_middle" | "bottom_left"
 ```
 
+### Other
+
+For valid display check that your React _"root"_ is flexible and fulscreen to support all browsers behaviour...
+
+```
+    // public/index.html
+    <div class="flex h-full w-full" id="root"></div>
+
+```
+
 ## License
 
 This project is licensed with the [MIT license](LICENSE).
