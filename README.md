@@ -141,9 +141,8 @@ type Position "top_right" | "top_middle" | "top_left" | "bottom_right" | "bottom
 For valid display check that your React _"root"_ is flexible and fulscreen to support all browsers behaviour...
 
 ```
-    // public/index.html
-    <div class="flex h-full w-full" id="root"></div>
-
+// public/index.html
+<div class="flex h-full w-full" id="root"></div>
 ```
 
 ## License
