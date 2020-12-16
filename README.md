@@ -135,3 +135,7 @@ Various toast position
 
 type Position "top_right" | "top_middle" | "top_left" | "bottom_right" | "bottom_middle" | "bottom_left"
 ```
+
+## License
+
+This project is licensed with the [MIT license](LICENSE).
