@@ -146,7 +146,7 @@ For valid display check that your React _"root"_ is flexible and fulscreen to su
 
 ### Doc
 
-You can read [setp-by-step]("./Step-By-Step.md") tutorial if you wanna start from scratch. (Currently writting / Not finished).
+You can read [setp-by-step](./Step-By-Step.md) tutorial if you wanna start from scratch. (Currently writting / Not finished).
 
 ## License
 
