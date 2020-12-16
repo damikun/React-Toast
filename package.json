@@ -17,7 +17,7 @@
       "@babel/preset-react"
     ]
   },
-    "peerDependencies": {
+  "peerDependencies": {
     "react": "^17.0.1"
   },
   "dependencies": {
@@ -26,6 +26,7 @@
     "@types/node": "^12.19.8",
     "@types/react": "^16.14.2",
     "@types/react-dom": "^16.9.10",
+    "autoprefixer": "^10.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
@@ -53,9 +54,9 @@
     "@tailwindcss/typography": "^0.2.0",
     "clsx": "^1.1.1",
     "gh-pages": "^3.1.0",
-    "postcss": "^8.1.4",
-    "postcss-cli": "^8.2.0",
-    "tailwindcss": "^2.0.1",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2",
     "tailwindcss-truncate-multiline": "^1.0.3"
   },
   "browserslist": {

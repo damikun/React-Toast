@@ -1,9 +1,3 @@
-/* purgecss start ignore */
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-
-@import "tailwindcss/utilities";
-
 /* stylelint-disable at-rule-no-unknown */
 html,
 body {
@@ -47,3 +41,8 @@ body {
 [tabindex="-1"]:focus {
   outline: none !important;
 }
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
