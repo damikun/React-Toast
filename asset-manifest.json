@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Toast/static/css/main.31c2f0c5.chunk.css",
+    "main.css": "/React-Toast/static/css/main.7cfa3f8e.chunk.css",
     "main.js": "/React-Toast/static/js/main.818d4fba.chunk.js",
     "main.js.map": "/React-Toast/static/js/main.818d4fba.chunk.js.map",
     "runtime-main.js": "/React-Toast/static/js/runtime-main.dbb6c7ea.js",
@@ -8,13 +8,13 @@
     "static/js/2.558bc9d7.chunk.js": "/React-Toast/static/js/2.558bc9d7.chunk.js",
     "static/js/2.558bc9d7.chunk.js.map": "/React-Toast/static/js/2.558bc9d7.chunk.js.map",
     "index.html": "/React-Toast/index.html",
-    "static/css/main.31c2f0c5.chunk.css.map": "/React-Toast/static/css/main.31c2f0c5.chunk.css.map",
+    "static/css/main.7cfa3f8e.chunk.css.map": "/React-Toast/static/css/main.7cfa3f8e.chunk.css.map",
     "static/js/2.558bc9d7.chunk.js.LICENSE.txt": "/React-Toast/static/js/2.558bc9d7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dbb6c7ea.js",
     "static/js/2.558bc9d7.chunk.js",
-    "static/css/main.31c2f0c5.chunk.css",
+    "static/css/main.7cfa3f8e.chunk.css",
     "static/js/main.818d4fba.chunk.js"
   ]
 }
