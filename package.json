@@ -5,6 +5,13 @@
   "license": "MIT",
   "author": "Dalibor Kundrat",
   "private": false,
+  "keywords": [
+    "react",
+    "react-toast",
+    "react-notify",
+    "react-toast-component",
+    "react-push"
+  ],
   "babel": {
     "presets": [
       "@babel/preset-react"
