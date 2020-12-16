@@ -1,8 +1,7 @@
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/damikun/React-File-DragDrop">
-  <img src="images/toast.gif" alt="Example ract toast" >
+  <a href="https://github.com/damikun/React-Toast">
+  <img src="images/toast.gif" alt="React-Toast-Notify" >
   </a>
 
   <h3 align="center">React Toast Component</h3>
