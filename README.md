@@ -33,6 +33,8 @@ Example implements this push-Events:
 
 ### Installation
 
+(Package is not available on npm)
+
 1. Clone the repo
    ```sh
    git clone https://github.com/damikun/React-Toast.git
